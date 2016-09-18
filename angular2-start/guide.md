@@ -1,6 +1,6 @@
-Angular 2
+#Angular 2
 ***
-What is it?
+##What is it?
 **Angular 2** is a front-end component-based framework intended to make it easier for developers to create robust and dynamic user experiences. It can be installed as an  npm package. Once installed, Angular 2 uses components to load separate parts of the view.
 
 React vs Angular 2:
@@ -10,31 +10,32 @@ But let’s compare them anyway.
 
 [“Angular 2 continues to put “JS” into HTML. React puts “HTML” into JS”](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.u4htqa941)
 
-React takes a more simple approach focusing on Javascript which makes for simpler code.  
+-React takes a more simple approach focusing on Javascript which makes for simpler code.  
 However Angular 2 allows you to do more sophisticated things with less code.
 
-Both provide robust tools for scalability and much like the Grunt vs. Gulp debate it may be a little while before we see a clear preference emerge.
+-Both provide robust tools for scalability and much like the Grunt vs. Gulp debate it may be a little while before we see a clear preference emerge.
 
 
 Advantages of Angular 2:
 Was designed for mobile to handle the underpowered (when compared to desktop experiences) UX.  It features a really cool router document that will load different components and change the URL to make it appear as if you are traveling to different pages even though you’re still on a single page application.
 
-So what is Angular 2 made of?
+##So what is Angular 2 made of?
 
-(https://imgflip.com/i/1atzu1)
+(markdown_images/component_example.jpg)
 
-But what is a component?
+##But what is a component?
 It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is just a tree of components.  There are two parts to each component.  The selector and the decorator.
 
-Selectors grab the HTML element and has a template of the elements to be added to the page.
+**Selectors** grab the HTML element and has a template of the elements to be added to the page.
 
-Decorators “are functions that are invoked with a prefixed @ symbol, and immediately followed by a class, parameter, method or property. The decorator function is supplied information about the class, parameter or method, and the decorator function returns something in its place, or manipulates its target in some way.” -Rangle.io
+**Decorators** “are functions that are invoked with a prefixed @ symbol, and immediately followed by a class, parameter, method or property. The decorator function is supplied information about the class, parameter or method, and the decorator function returns something in its place, or manipulates its target in some way.” -Rangle.io
 
 
 Check out the image below to see the flow of components to the page
 
+(markdown_images/component_example.jpg)
 
-Resources
+##Resources
 
 One of the best resources we found was a tutorial on [Scotch School's Website](https://school.scotch.io/getting-started-with-angular-2)
 
@@ -45,10 +46,10 @@ For a deeper dive into Angular and it’s parts check out [The Core Concepts of 
 
 [Websites built using Angular 2](http://builtwithangular2.com/)
 
-------------------------------------------------------
-But if you want to just jump in head over to [Angular.io](https://angular.io/docs/ts/latest/quickstart.html) for a quick start guide
+***
+##But if you want to just jump in head over to [Angular.io](https://angular.io/docs/ts/latest/quickstart.html) for a quick start guide
 
-------------------------------------------------------
+***
 
 Or follow our outline below to create an app and have it up and running in under 5 minutes.
 
