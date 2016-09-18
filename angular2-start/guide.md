@@ -21,7 +21,7 @@ Was designed for mobile to handle the underpowered (when compared to desktop exp
 
 ##So what is Angular 2 made of?
 
-(markdown_images/component_example.jpg)
+(http://i.imgur.com/X2enHTJ.jpg)
 
 ##But what is a component?
 It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is just a tree of components.  There are two parts to each component.  The selector and the decorator.
@@ -33,7 +33,7 @@ It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is 
 
 Check out the image below to see the flow of components to the page
 
-(markdown_images/component_example.jpg)
+(http://i.imgur.com/skEz93h.png)
 
 ##Resources
 
