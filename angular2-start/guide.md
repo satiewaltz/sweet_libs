@@ -1,5 +1,5 @@
 #h1 Angular2
-
+***
 #h3 What is it?
 **Angular2** is a front-end Javascript framework intended to make it easier for developers to create robust and dynamic user experiences. It can be installed as an  npm package. Once installed, Angular2 uses components to load separate parts of the view. In order to begin using Angular2:
 
@@ -24,3 +24,8 @@
 #h4 Dependency injection?
 
 ES2015 promises?
+
+#h4 Resources
+
+One of the best resources we found was a tutorial on [Scotch School's Website](https://school.scotch.io/getting-started-with-angular-2)
+This contains a start to finish 
