@@ -3,20 +3,20 @@
 ##What is it?
 **Angular 2** is a front-end component-based framework intended to make it easier for developers to create robust and dynamic user experiences. It can be installed as an  npm package. Once installed, Angular 2 uses components to load separate parts of the view.
 
-React vs Angular 2:
+**React vs Angular 2:**
 First things first: React is a library and Angular 2 is a front end framework -- so in a way we’re comparing apples and oranges.  
 
 But let’s compare them anyway.
 
 [“Angular 2 continues to put “JS” into HTML. React puts “HTML” into JS”](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.u4htqa941)
 
--React takes a more simple approach focusing on Javascript which makes for simpler code.  
+*React takes a more simple approach focusing on Javascript which makes for simpler code.  
 However Angular 2 allows you to do more sophisticated things with less code.
 
--Both provide robust tools for scalability and much like the Grunt vs. Gulp debate it may be a little while before we see a clear preference emerge.
+*Both provide robust tools for scalability and much like the Grunt vs. Gulp debate it may be a little while before we see a clear preference emerge.
 
 
-Advantages of Angular 2:
+**Advantages of Angular 2:**
 Was designed for mobile to handle the underpowered (when compared to desktop experiences) UX.  It features a really cool router document that will load different components and change the URL to make it appear as if you are traveling to different pages even though you’re still on a single page application.
 
 ##![So what is Angular 2 made of?](http://i.imgur.com/X2enHTJ.jpg)
@@ -33,30 +33,30 @@ It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is 
 
 ##Resources
 
-One of the best resources we found was a tutorial on [Scotch School's Website](https://school.scotch.io/getting-started-with-angular-2)
+*One of the best resources we found was a tutorial on [Scotch School's Website](https://school.scotch.io/getting-started-with-angular-2)
 
-Great chart that breaks down each piece of an [Angular 2 component](https://www.ng-book.com/2/)
+*Great chart that breaks down each piece of an [Angular 2 component](https://www.ng-book.com/2/)
 
-For a deeper dive into Angular and it’s parts check out [The Core Concepts of Angular 2]
+*For a deeper dive into Angular and it’s parts check out [The Core Concepts of Angular 2]
 (https://vsavkin.com/the-core-concepts-of-angular-2-c3d6cbe04d04#.17c2hfpc4)
 
-[Websites built using Angular 2](http://builtwithangular2.com/)
+*[Websites built using Angular 2](http://builtwithangular2.com/)
 
 ***
-##But if you want to just jump in head over to [Angular.io](https://angular.io/docs/ts/latest/quickstart.html) for a quick start guide
+##But if you want to just jump in, head over to [Angular.io](https://angular.io/docs/ts/latest/quickstart.html) for a quick start guide.
 
 ***
 
-Or follow our outline below to create an app and have it up and running in under 5 minutes.
+###Or follow our outline below to create an app and have it up and running in under 5 minutes.
 
 To build startup project
 
-# create index.html
+#### create index.html
 touch index.html
-# create package.json with defaults
+#### create package.json with defaults
 npm init --yes
 
-# Install server
+#### Install server
 npm install --save-dev lite-server
 
 change package.json
@@ -65,16 +65,16 @@ change package.json
   "lite": "lite-server"
 }
 
-# Start server
+#### Start server
 npm run lite
 
-# install typescript
+#### install typescript
 npm install --save-dev typescript typings
 
-# Touch typescript configuration and typings config
+#### Touch typescript configuration and typings config
 touch tsconfig.json typings.json
 
-# Add this to tsconfig
+#### Add this to tsconfig
 
 {
   "compilerOptions": {
@@ -89,12 +89,12 @@ touch tsconfig.json typings.json
   }
 }
 
-# Install Typings
-# Tells typescript about packages
+#### Install Typings
+#### Tells typescript about packages
 npm install -g typings
 typings install dt~core-js dt~jasmine dt~node --save --global
 
-# Typings.json will then be created  be changed by now
+#### Typings.json will then be created  be changed by now
 
 package.json should look like this:
 {
@@ -123,7 +123,7 @@ package.json should look like this:
   }
 }
 
-# tsconfig looks like
+#### tsconfig looks like
 
 {
   "compilerOptions": {
