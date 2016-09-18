@@ -19,7 +19,7 @@ However Angular 2 allows you to do more sophisticated things with less code.
 Advantages of Angular 2:
 Was designed for mobile to handle the underpowered (when compared to desktop experiences) UX.  It features a really cool router document that will load different components and change the URL to make it appear as if you are traveling to different pages even though you’re still on a single page application.
 
-##[So what is Angular 2 made of?](http://i.imgur.com/X2enHTJ.jpg)
+##![So what is Angular 2 made of?](http://i.imgur.com/X2enHTJ.jpg)
 
 ##But what is a component?
 It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is just a tree of components.  There are two parts to each component.  The selector and the decorator.
@@ -29,7 +29,7 @@ It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is 
 **Decorators** “are functions that are invoked with a prefixed @ symbol, and immediately followed by a class, parameter, method or property. The decorator function is supplied information about the class, parameter or method, and the decorator function returns something in its place, or manipulates its target in some way.” -Rangle.io
 
 
-[Check out the image below to see the flow of components to the page](http://i.imgur.com/skEz93h.png)
+![Check out the image below to see the flow of components to the page](http://i.imgur.com/skEz93h.png)
 
 ##Resources
 
