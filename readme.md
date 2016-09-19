@@ -1,5 +1,8 @@
-#Angular 2
-***
+#Angular 2 - Sweet Libs
+
+Created By - Dave, Gaby, John, and Rob.
+
+---
 
 ##What is it?
 **Angular 2** is a front-end component-based framework intended to make it easier for developers to create robust and dynamic user experiences. It can be installed as an  npm package. Once installed, Angular 2 uses components to load separate parts of the view.
