@@ -1,5 +1,6 @@
 #Angular 2
 ***
+
 ##What is it?
 **Angular 2** is a front-end component-based framework intended to make it easier for developers to create robust and dynamic user experiences. It can be installed as an  npm package. Once installed, Angular 2 uses components to load separate parts of the view.
 
@@ -52,30 +53,43 @@ It’s the most basic building block of a UI in Angular 2.  An Angular 2 app is 
 To build startup project
 
 #### create index.html
+```
 touch index.html
+```
+
 #### create package.json with defaults
+```
 npm init --yes
-
+```
 #### Install server
+```
 npm install --save-dev lite-server
-
+```
 change package.json
 
+```
 "scripts": {
   "lite": "lite-server"
 }
+```
 
 #### Start server
+```
 npm run lite
+```
 
 #### install typescript
+```
 npm install --save-dev typescript typings
+```
 
 #### Touch typescript configuration and typings config
+```
 touch tsconfig.json typings.json
+```
 
 #### Add this to tsconfig
-
+```
 {
   "compilerOptions": {
     "target": "es5",
@@ -88,15 +102,19 @@ touch tsconfig.json typings.json
     "noImplicitAny": false
   }
 }
+```
 
 #### Install Typings
 #### Tells typescript about packages
+```
 npm install -g typings
 typings install dt~core-js dt~jasmine dt~node --save --global
+```
 
 #### Typings.json will then be created  be changed by now
 
 package.json should look like this:
+```
 {
   "name": "ng2-start",
   "version": "1.0.0",
@@ -122,9 +140,11 @@ package.json should look like this:
     "typings": "^1.3.3"
   }
 }
+```
+
 
 #### tsconfig looks like
-
+```
 {
   "compilerOptions": {
     "target": "es5", // es6 code will be complied down to es5
@@ -137,9 +157,14 @@ package.json should look like this:
     "noImplicitAny": false // just a typescript config
   }
 }
+```
 
 angular dependencies:
+```
 npm install core-js reflect-metadata zone.js rxjs@5.0.0-beta.12 systemjs --save
+```
 
 angular packages:
+```
 npm install @angular/core @angular/common @angular/compiler @angular/platform-browser @angular/platform-browser-dynamic @angular/forms @angular/http @angular/router --save
+```
